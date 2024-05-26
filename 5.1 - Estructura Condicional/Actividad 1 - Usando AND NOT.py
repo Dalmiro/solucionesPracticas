@@ -20,6 +20,6 @@ elif(unidadescompradas < 12 and not jubilado==1):
 elif(unidadescompradas>12 and unidadescompradas<24 and not jubilado==1):
     totaljubiladocon10 = totalparcial*0.8
     print('El total a pagar por ', unidadescompradas, 'unidades es de ', totaljubiladocon10, 'pesos,')
-elif(unidadescompradas>24 and jubilado):
+elif(unidadescompradas>24 and not jubilado==1):
     totaljubiladocon20 = totalparcial*0.75
     print('El total a pagar por ', unidadescompradas, 'unidades es de ', totaljubiladocon20, 'pesos,')
